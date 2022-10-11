@@ -13,7 +13,7 @@ while True:
 	msg = data.decode()
 	conn.send(data)
 	if msg == "exit":
-            print("Killing process")
+            print("Killing processs")
             break   
     print(msg)
     
